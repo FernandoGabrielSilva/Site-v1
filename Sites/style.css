@@ -1,0 +1,74 @@
+/*
+GERAL
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/64387c56904167.59c11c162bc8d.gif');
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 220vh 100vw;
+}
+
+/*
+NAVEGAÇÃO
+*/
+
+#site {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 36px;
+    padding-left: 3vw;
+}
+
+#site ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+#site ul a {
+    display: flex;
+}
+
+#site ul li {
+    color: black;
+    display: flex;
+    margin-left: -25vw;
+    margin-right: 10vw;
+    font-size: 5vh;
+} 
+
+#site ul a li {
+    display: flex;
+}
+
+#site ul a img {
+    display: inline-block;
+    width: 35vw;
+    height: 45vh;
+    margin: 2px;
+}
+
+.img_1,
+.img_2 {
+    display: inline-block;
+}
+
+.img_3,
+.img_4 {
+    display: inline-block;
+}
+
+#site ul a img:hover {
+    width: 37vw;
+    height: 47vh;
+}
